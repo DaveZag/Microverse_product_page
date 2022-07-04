@@ -1,3 +1,121 @@
 * {
   box-sizing: border-box;
 }
+body {
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  width: 100%;
+  background-color: rgb(136, 187, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+ul {
+  list-style-type: none;
+}
+#video {
+  width: 788.54px;
+  height: 443px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+}
+.main {
+  margin-inline: auto;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  width: inherit;
+  justify-content: space-between;
+  height: auto;
+  width: 55%;
+}
+.header img {
+  margin-left: 1rem;
+}
+.nav {
+  margin-right: 3rem;
+  height: inherit;
+}
+.nav .nav-link {
+  display: inline;
+  padding: 0.7rem;
+}
+.nav-link a {
+  color: black;
+  font-size: 1.3rem;
+}
+.nav-link:hover {
+  cursor: pointer;
+  background-color: black;
+}
+.nav-link:hover a {
+  color: white;
+}
+.aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  padding: 2rem;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  backdrop-filter: blur(1px);
+}
+.form-count form {
+  padding: 1rem;
+  color: white;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+form input[type="email"] {
+  outline: none;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  color: black;
+  border: none;
+  border-radius: 10px;
+}
+input[type="submit"] {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  background-color: rgb(15, 22, 26);
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 50%;
+  margin: 0.4rem auto;
+}
+input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .aside {
+    display: block;
+    width: ;
+  }
+  .video-play {
+    width: "789";
+    height: "443";
+    margin-inline-end: 2rem;
+  }
+}

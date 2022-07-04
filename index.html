@@ -2,11 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Product Landing Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
+    <div class="container" id="home">
+      <header id="header" class="header">
+        <img src="images/sneaker-clipart-pdv.svg" alt="" id="header-img" />
+
+        <nav class="nav" id="nav-bar">
+          <ul>
+            <li class="nav-link"><a href="#home">Home</a></li>
+            <li class="nav-link"><a href="#seakers">Sneakers</a></li>
+            <li class="nav-link"><a href="#video">Details</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="main">
+        <div id="sneakers"></div>
+        <div class="aside">
+          <div class="iframe">
+            <iframe
+              id="video"
+              class="video-play"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              type="text/html"
+              src="https://www.youtube.com/embed/geFi-ZpN2ZM?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=30&origin=http://youtubeembedcode.com"
+            >
+            </iframe>
+          </div>
+          <div class="form-count">
+            <form action="https://www.freecodecamp.com/email-submit" id="form" class="">
+              <input type="email" name="email" id="email" placeholder="Enter your email" />
+              <input type="submit" value="Submit" id="submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
